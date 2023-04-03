@@ -5,5 +5,5 @@ interface Props {
 }
 
 export const Body = ({ text }: Props) => {
-  return <div className='body' style={{color: '#FFF'}}>Example Component i--xx--: {text}</div>
+  return <div className='body' style={{color: '#FFF'}}>Example Component i--xx-- evol: {text}</div>
 }
