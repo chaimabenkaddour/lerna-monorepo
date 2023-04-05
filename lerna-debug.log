@@ -1,63 +1,16 @@
 0 silly argv {
-0 silly argv   _: [ 'publish' ],
-0 silly argv   registry: 'http://localhost:4873/',
-0 silly argv   composed: 'publish',
+0 silly argv   _: [ 'add' ],
+0 silly argv   scope: 'app',
+0 silly argv   globs: [],
 0 silly argv   lernaVersion: '6.6.1',
 0 silly argv   '$0': '..\\..\\AppData\\Roaming\\npm\\node_modules\\lerna\\dist\\cli.js',
-0 silly argv   bump: 'from-git'
+0 silly argv   pkg: 'moment'
 0 silly argv }
 1 notice cli v6.6.1
 2 verbose rootPath C:\Users\P995519\projects\react-monorepo-template
 3 info versioning independent
-4 verbose session e19cb9e054e2ab26
-5 verbose user-agent lerna/6.6.1/node@v18.13.0+x64 (win32)
-6 verbose git-describe undefined => "app@0.1.1-0-gcdb67d0"
-7 silly git-describe parsed => {"lastTagName":"app@0.1.1","lastVersion":"0.1.1","refCount":"0","sha":"cdb67d0","isDirty":false}
-8 silly getCurrentTags matching "*@*"
-9 info publish Publishing packages to npm...
-10 notice Skipping all user and access validation due to third-party registry
-11 notice Make sure you're authenticated properly ¯\_(ツ)_/¯
-12 warn ENOLICENSE Package lib1 is missing a license.
-12 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
-12 warn ENOLICENSE See https://choosealicense.com for additional guidance.
-13 silly getCurrentSHA
-14 verbose getCurrentSHA cdb67d0129c8d4f4079b8b07df27b4a5f0548e55
-15 silly lifecycle No script for "prepublish" in "react-monorepo-template", continuing
-16 silly lifecycle No script for "prepare" in "react-monorepo-template", continuing
-17 silly lifecycle No script for "prepublishOnly" in "react-monorepo-template", continuing
-18 silly lifecycle No script for "prepack" in "react-monorepo-template", continuing
-19 verbose pack-directory packages\lib1
-20 silly lifecycle No script for "prepublish" in "lib1", continuing
-21 silly lifecycle "prepare" starting in "lib1"
-22 info lifecycle lib1@1.0.5~prepare: lib1@1.0.5
-23 silly lifecycle "prepare" finished in "lib1"
-24 silly lifecycle No script for "prepublishOnly" in "lib1", continuing
-25 silly lifecycle No script for "prepack" in "lib1", continuing
-26 silly lifecycle No script for "postpack" in "lib1", continuing
-27 verbose packed packages\lib1
-28 silly lifecycle No script for "postpack" in "react-monorepo-template", continuing
-29 verbose publish lib1
-30 silly FetchError: request to http://localhost:4873/lib1 failed, reason: getaddrinfo ENOTFOUND proxy.net.fdj.fr
-30 silly     at ClientRequest.<anonymous> (C:\Users\P995519\projects\react-monorepo-template\node_modules\minipass-fetch\lib\index.js:130:14)
-30 silly     at ClientRequest.emit (node:events:513:28)
-30 silly     at onerror (C:\Users\P995519\projects\react-monorepo-template\node_modules\agent-base\dist\src\index.js:117:21)
-30 silly     at callbackError (C:\Users\P995519\projects\react-monorepo-template\node_modules\agent-base\dist\src\index.js:136:17)
-30 silly     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-30 silly  FetchError: request to http://localhost:4873/lib1 failed, reason: getaddrinfo ENOTFOUND proxy.net.fdj.fr
-30 silly     at ClientRequest.<anonymous> (C:\Users\P995519\projects\react-monorepo-template\node_modules\minipass-fetch\lib\index.js:130:14)
-30 silly     at ClientRequest.emit (node:events:513:28)
-30 silly     at onerror (C:\Users\P995519\projects\react-monorepo-template\node_modules\agent-base\dist\src\index.js:117:21)
-30 silly     at callbackError (C:\Users\P995519\projects\react-monorepo-template\node_modules\agent-base\dist\src\index.js:136:17)
-30 silly     at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
-30 silly   code: 'ENOTFOUND',
-30 silly   errno: 'ENOTFOUND',
-30 silly   syscall: 'getaddrinfo',
-30 silly   hostname: 'proxy.net.fdj.fr',
-30 silly   type: 'system'
-30 silly }
-31 error ENOTFOUND request to http://localhost:4873/lib1 failed, reason: getaddrinfo ENOTFOUND proxy.net.fdj.fr
-32 error FetchError: request to http://localhost:4873/lib1 failed, reason: getaddrinfo ENOTFOUND proxy.net.fdj.fr
-32 error     at ClientRequest.<anonymous> (C:\Users\P995519\projects\react-monorepo-template\node_modules\minipass-fetch\lib\index.js:130:14)
-32 error     at ClientRequest.emit (node:events:513:28)
-32 error     at onerror (C:\Users\P995519\projects\react-monorepo-template\node_modules\agent-base\dist\src\index.js:117:21)
-32 error     at callbackError (C:\Users\P995519\projects\react-monorepo-template\node_modules\agent-base\dist\src\index.js:136:17)
+4 error FetchError: request to https://referentiel-livraison.devops.prod.fdj.fr/repository/npm-central/moment failed, reason: getaddrinfo ENOTFOUND proxy.net.fdj.fr
+4 error     at ClientRequest.<anonymous> (C:\Users\P995519\projects\react-monorepo-template\node_modules\minipass-fetch\lib\index.js:130:14)
+4 error     at ClientRequest.emit (node:events:513:28)
+4 error     at onerror (C:\Users\P995519\projects\react-monorepo-template\node_modules\agent-base\dist\src\index.js:117:21)
+4 error     at callbackError (C:\Users\P995519\projects\react-monorepo-template\node_modules\agent-base\dist\src\index.js:136:17)

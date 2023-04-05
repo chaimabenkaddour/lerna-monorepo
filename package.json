@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lerna run start --parallel"
+    "test": "lerna run test",
+    "build": "lerna run build --scope app",
+    "start": "lerna run start --parallel --stream"
   },
   "author": "",
   "license": "ISC",
