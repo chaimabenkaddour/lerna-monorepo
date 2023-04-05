@@ -7,7 +7,7 @@ interface Props {
 export const Body = ({ text }: Props) => {
   return (
     <div className='body' style={{ color: "#FFF" }}>
-      Example Component hi : {text}
+      Example Component test : {text}
     </div>
   )
 }
